@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
   <title>Welcom to IoT</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./sidebar.js"></script>
 </head>
 <body>
 
@@ -13,16 +15,24 @@
   <div id="module">
     <p><b>简   介</b></p>
   </div>
-  <div id="sidebar">
+  <button id="sidebar-toggle">☰</button>
+  <div id="sidebar" class="active">
     <ul>
-      <li><a style="color: #f2ff7a;" href="简介.html">简介</a></li>
-      <li><a href="关于学长.html">关于学长（我）</a></li>
-      <li><a href="实训室成员.html">实训室成员</a></li>
-      <li><a href="关于物联网.html">关于物联网(IOT)</a>
-      <li><a href="资源.html">资源</a>
-      <li><a href="赞助.html">赞助</a>
-      <li><a href="咨询学长.html">咨询学长（我）</a>
+        <li><a style="color: #f2ff7a;" href="简介.html">简介</a></li>
+        <li><a href="关于学长.html">关于学长（我）</a></li>
+        <li><a href="实训室成员.html">实训室成员</a></li>
+        <li><a href="关于物联网.html">关于物联网(IOT)</a>
+        <li><a href="资源.html">资源</a>
+        <li><a href="赞助.html">赞助</a>
+        <li><a href="咨询学长.html">咨询学长（我）</a>
     </ul>
+    <div id="update-log">
+      <h2>更新日志</h2>
+      <ul>
+        <li><b>2024-06-21:</b> 网页优化更新 By Wujiyan</li>
+        <li><b>2024-05-25:</b> 初始版本发布</li>
+      </ul>
+    </div>
   </div>
 
   <div id="myModal" class="modal">
@@ -40,13 +50,6 @@
       <p>  8. 适用法律：本声明及本网站提供的资源使用，均适用中华人民共和国法律。如有争议，双方应友好协商解决；协商不成时，可向本网站所在地人民法院提起诉讼。</p>
     </div>
 
-  </div>
-
-  <div id="update-log">
-    <h2>更新日志</h2>
-    <ul>
-      <li>2024-05-25: 初始版本发布</li>
-    </ul>
   </div>
 
   <div id="content">
